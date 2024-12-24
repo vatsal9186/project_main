@@ -1,0 +1,49 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .dashboard {
+            max-width: 1000px;
+            margin: 20px;
+            margin-left:420px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .dashboard-header {
+            background-color: #6a1b9a;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 8px 8px 0 0;
+            font-size: 1.5em;
+        }
+        .dashboard-cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            flex: 1 1 calc(33.333% - 20px);
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .card-icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .card-title {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        .card-value {
+            font-size: 1.5em;
+            color: #333;
+        }
